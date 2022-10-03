@@ -55,6 +55,6 @@ public class DefaultMethodsInInterface {
         System.out.println(mathClass.multiply(20,20));
         System.out.println(mathClass.subtract(300,170));
         System.out.println(mathClass.add(22,3));
-        
+
     }
 }
