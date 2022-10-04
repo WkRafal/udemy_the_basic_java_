@@ -1,0 +1,22 @@
+package com.exemple.files;
+
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("wprowadz ilosc liczb do dodania");
+        int numNumbers = scanner.nextInt();
+
+        int sum = 0;
+
+        for (int i = 0; i < numNumbers; i++) {
+            System.out.println("Wprowadz liczbe dododania");
+            sum += scanner.nextInt();
+        }
+
+        System.out.println("suma: " + sum);
+    }
+}
