@@ -18,5 +18,6 @@
                 <mapping class="org.example.manyToMany.model.Tag"></mapping>
                 <mapping class="org.example.manyToMany.model.Article"></mapping>
                 <mapping class="org.example.dao.Project"></mapping>
+                <mapping class="org.example.lombok.model.Car"></mapping>
         </session-factory>
 </hibernate-configuration>
