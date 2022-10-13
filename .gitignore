@@ -6,3 +6,5 @@ out/
 *.jpg
 */target/
 */*/test/
+*.pdf
+*.md
