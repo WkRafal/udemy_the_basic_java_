@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title th:text="${title}"></title>
+    <!--/*/ <th:block th:include="fragments/general.html :: headerfiles"/> /*/-->
+</head>
+<body>
+<div class="container">
+    <h3>User id: <span th:text="${user.id}"></span></h3>
+    <div>
+        <p>Name:  <span th:text="${user.name}"></span></p>
+        <p>Surname:  <span th:text="${user.surname}"></span></p>
+        <p>Email:  <span th:text="${user.email}"></span></p>
+        <p>City:  <span th:text="${user.city}"></span></p>
+    </div>
+    <div th:replace="fragments/language.html :: language"/>
+    <footer th:replace="fragments/general.html :: footer(company='example.com', year='2034') "></footer>
+
+</div>
+
+</body>
+</html>
